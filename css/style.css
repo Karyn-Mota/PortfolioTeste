@@ -1,0 +1,376 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+    background-color:rgb(254, 220, 52); font-size: 15px;
+
+}
+
+header, main, footer, section, div {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  overflow-x: hidden; /* impede o scroll lateral */
+}
+
+
+header{
+
+    top: 0px;
+
+    background-color: #d42957;
+
+}
+
+nav{
+
+    display: flex; background-color: #d42957;
+
+    justify-content: center;
+
+}
+
+main {
+
+    display: flex;
+
+    flex-direction: column; 
+
+    align-items: center;
+
+    letter-spacing: 2px;    
+
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+ul{
+
+    list-style: none;
+
+}
+
+table {
+
+    color: #d42957; 
+
+    border-radius: 20px;
+
+    line-height: 20px;
+
+    text-align: center;
+
+    width: 100%;       
+
+    max-width: 500px; 
+
+    margin-bottom: 30px; 
+
+    padding: 20px; 
+
+    background-color: #d42957;   
+
+    border: 1px solid #8cd6ae;
+
+}
+
+tr{
+
+    background-color: #8cd6ae;
+
+}
+
+form{
+
+    text-align: center;
+
+}
+
+footer{
+
+    display: flex; background-color: #d42957;
+
+    justify-content: center; border: 1px solid;
+
+    margin: 0px;
+
+    padding: 20px; color: #8cd6ae;
+
+    top: 40px;
+
+}
+
+.nomeMenu{
+
+    margin: 0px; padding: 10px;
+
+    display: flex; justify-content: center;
+
+    color: #8cd6ae;
+
+}
+
+.itensMenu{
+
+    background-color: #d42957; padding: 20px;
+
+    margin: 5px; color: #8cd6ae;
+
+}
+
+.titulo-sobre {
+
+    margin-top: 40px;
+
+    display: flex;               
+
+    align-items: center;         
+
+    justify-content: center;                        
+
+    background-color: rgb(255, 219, 42);
+
+}
+
+.titulo-sobre img {
+
+    height: 40px;
+
+}
+
+#nomeSobre {
+
+    margin: 0;             
+
+    padding: 20px;
+
+    color: #d42957;
+
+    background-color: #8cd6ae;
+
+    border: 1px solid;
+
+    border-radius: 15px;
+
+}
+
+#sobre{
+
+    display: flex; gap: 30px; align-items: center; 
+
+    margin-top: 40px;
+
+    padding: 20px; color: #d42957;
+
+    background-color:#8cd6ae; border: 3px solid;
+
+    border-radius: 15px; text-align: center;
+
+}
+
+.fotoSobre{ 
+
+    height: 350px;
+
+    border-radius: 10px;
+
+}
+
+.titulo-projetos {
+
+    margin-top: 40px;
+
+    display: flex;               
+
+    align-items: center;         
+
+    justify-content: center;                        
+
+    background-color: rgb(255, 219, 42);
+
+}
+
+.titulo-projetos img {
+
+    height: 40px;
+
+}
+
+#nomeProjetos {
+
+    margin: 0;             
+
+    padding: 20px;
+
+    color: #d42957;
+
+    background-color: rgb(255, 219, 42);
+
+    background-color:#8cd6ae; border: 3px solid;
+
+    border-radius: 15px;
+
+}
+
+#projetos{
+
+    background-color:rgb(255, 219, 42);
+
+    color: #d42957;
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    gap: 20px;
+
+}
+
+.itensProjetos {
+
+    display: flex;
+
+    flex-direction: column;
+
+    padding: 15px;
+
+    margin: 15px;
+
+    max-width: 500px;
+
+    border: 2px solid #d42957;
+
+    background-color: #8cd6ae;
+
+    border-radius: 15px;
+
+}
+
+.grupoFotos {
+
+    display: flex; flex-direction: column;         
+
+}
+
+.linha1  {padding: 5px;}
+
+.fotoChuva{  
+
+    height: 350px;
+
+    border-radius: 10px; border: 2px solid rgb(255, 219, 42); border-radius: 50px;
+
+}
+
+.fotoSepe{
+
+    height: 350px;
+
+    border-radius: 10px; border: 2px solid rgb(255, 219, 42); border-radius: 50px;
+
+}
+
+.fotoBossa{
+
+    height: 350px;
+
+    border-radius: 10px;
+
+    padding: 5px; border: 2px solid rgb(255, 219, 42); border-radius: 50px;
+
+}
+
+.fotoNada{
+
+    height: 370px;
+
+    border-radius: 10px; border: 2px solid rgb(255, 219, 42); border-radius: 50px;
+
+}
+
+.fotoCima{
+
+    height: 370px;
+
+    border-radius: 10px; border: 2px solid rgb(255, 219, 42); border-radius: 50px;
+
+}
+
+.titulo-contato {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 200px;
+
+    background-color: rgb(255, 219, 42);
+
+    margin-top: 10px;
+
+}
+
+.decoracao-esquerda,
+
+.decoracao-direita {
+
+    height: 300px;
+
+    border-radius: 10px;
+
+}
+
+#habilidades{
+
+    margin-top: 15px;
+
+    padding: 20px;
+
+    color: #d42957;
+
+    background-color: rgb(255, 219, 42);
+
+    background-color:#8cd6ae; border: 3px solid;
+
+    border-radius: 15px;
+
+}
+
+#nomeContato {
+
+    margin: 0;
+
+    padding: 20px;
+
+    color: #d42957;
+
+    background-color: rgb(255, 219, 42);
+
+    background-color:#8cd6ae; border: 3px solid;
+
+    border-radius: 15px;
+
+}
+
+#contato {
+
+    color: #d42957;
+
+}
+
+#nome, #email, #assunto, #mensagem, #Enviar, #Limpar {color: #d42957; background-color: rgb(238, 223, 146);}
+
+#Enviar:hover, #Limpar:hover{color: #d42957; background-color: rgb(232, 206, 75);}
