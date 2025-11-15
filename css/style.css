@@ -140,13 +140,13 @@ footer{
     background-color: rgb(255, 219, 42);
 
 }
-
-.titulo-sobre img {
-
-    height: 40px;
-
+.titulo-sobre img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
 }
-
 #nomeSobre {
 
     margin: 0;             
@@ -177,14 +177,13 @@ footer{
 
 }
 
-.fotoSobre{ 
-
-    height: 350px;
-
-    border-radius: 10px;
-
-}
-
+.fotosobre {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  }
 .titulo-projetos {
 
     margin-top: 40px;
